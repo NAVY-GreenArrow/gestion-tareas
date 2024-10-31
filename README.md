@@ -4,16 +4,6 @@
 
 2- Configurar las credenciales de la api para acceder a la base de datos APIs-Service/plugins/db.js
 
-const pool = mysql.createPool({
-    host: 'localhost', 
-// Cambia esto si tu base de datos está en otro lugar
-    user: '', // Tu usuario de MySQL
-    password: '', 
-// Tu contraseña de MySQL
-    database: '', 
-//Nombre de la base de datos, por defecto el scrpt le pone gestion_tareas
-});
-
 3- en la raiz tanto de la web como de la api hay que ejecutar npm install para los paquetes
 
 #EJECUCION
